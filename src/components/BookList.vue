@@ -8,8 +8,10 @@
 </template>
 
 <script>
+import BookItemVue from './BookItem.';
 export default {
     name: 'BookList',
+    components: 'BookItem',
     data() {
         return {
             title: 'All Books',
